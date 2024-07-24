@@ -1,0 +1,56 @@
+/*Selector Universal*/
+*{
+    font-family: revert-layer;
+}
+
+/*Selector de etiquetas */
+body{
+    background-color:rgb(235, 230, 255);
+    padding: 1em;
+}
+
+p{
+    color: rgb(37, 4, 4);
+    text-align: left;
+}
+footer{
+    text-align: end;
+}
+
+/*Selector de clases*/
+
+.foto_propia{
+    border: 5px solid rgb(168, 111, 182); /* Agregando 'solid' para definir el tipo de borde */
+    display: block; /* Asegurando que la imagen se muestre como bloque para aplicar correctamente el borde */
+    margin: auto; /* Alineando la imagen al centro horizontalmente */
+    padding: 10px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+
+/* Selector por id - elemento unico dentro del sitio*/
+#logo{
+    width: 150px;
+}
+
+/* Selector combinado
+Aqui podemos combinar más de una opción para ir filtrando mis etiquetas*/ 
+#navegacion li{
+    display: inline;
+}
+
+#contacto{
+    background-image: url(multimedia/db1c1ad07b38e8feab26ab31c2961b75.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% 50%;
+}
+
