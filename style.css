@@ -5,12 +5,21 @@
 
 /*Selector de etiquetas */
 body{
-    background-color:rgb(235, 230, 255);
+    background-image:url(multimedia/fondo.png);
+    background-color: black;
     padding: 1em;
-}
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ } 
+
+ h1, h2{
+    color: azure;
+ }
 
 p{
-    color: rgb(37, 4, 4);
+    color: rgb(227, 208, 238);
     text-align: left;
 }
 footer{
@@ -36,10 +45,7 @@ footer{
     display: inline-block;
 }
 
-/* Selector por id - elemento unico dentro del sitio*/
-#logo{
-    width: 150px;
-}
+
 
 /* Selector combinado
 Aqui podemos combinar más de una opción para ir filtrando mis etiquetas*/ 
@@ -48,9 +54,12 @@ Aqui podemos combinar más de una opción para ir filtrando mis etiquetas*/
 }
 
 #contacto{
-    background-image: url(multimedia/db1c1ad07b38e8feab26ab31c2961b75.jpg);
+    background-image: url(multimedia/logo.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 50% 50%;
 }
 
+#barra_nav{
+    color: white;
+}
