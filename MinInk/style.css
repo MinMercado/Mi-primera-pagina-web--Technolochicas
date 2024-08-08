@@ -1,0 +1,78 @@
+/*Selector Universal*/
+*{
+    font-family: revert-layer;
+}
+
+/*Selector de etiquetas */
+body{
+    background-image:url(multimedia/fondo.png);
+    background-color: black;
+    padding: 1em;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Questrial", sans-serif;
+ } 
+
+body h3{
+    color: rgb(221, 189, 240);
+}
+h4{
+    color: rgb(221, 189, 240);
+}
+
+h1, h2{
+    color: azure;
+ }
+
+p{
+    color: rgb(227, 208, 238);
+    text-align: left;
+}
+footer{
+    text-align: end;
+}
+
+.shadow-top {
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+}
+.shadow-b {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+/*Selector de clases*/
+
+.foto_propia{
+    border: 5px solid rgb(168, 111, 182); /* Agregando 'solid' para definir el tipo de borde */
+    display: block; /* Asegurando que la imagen se muestre como bloque para aplicar correctamente el borde */
+    margin: auto; /* Alineando la imagen al centro horizontalmente */
+    padding: 10px;
+}
+
+.texto-centrado{
+    text-align: center;
+}
+.inline {
+    display: inline;
+}
+.inline-block {
+    display: inline-block;
+}
+
+
+
+/* Selector combinado
+Aqui podemos combinar más de una opción para ir filtrando mis etiquetas*/ 
+#navegacion li{
+    display: inline;
+}
+
+#contacto{
+    background-image: url(multimedia/logo.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 50% 50%;
+}
+
+#barra_nav{
+    color: white;
+}
